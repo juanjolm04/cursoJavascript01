@@ -1,0 +1,31 @@
+.dataText{
+    color: tomato;
+    font-weight: bold;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*{
+    background-color: blanchedalmond;
+}
+
+img{
+    width: 20%;
+    float: center;
+}
+
+.estudios{
+    border-color: black;
+    display: table-row;
+}
+
+.safa{
+    float: left;
+    display: table-cell;
+}
+.lope{
+    margin-left: 50%;
+    display: table-cell;
+}
