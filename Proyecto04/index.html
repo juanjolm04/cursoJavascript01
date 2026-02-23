@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css.css">
+    <script src="src/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculadora">
+    <div class="inputUsuario">
+        <span>
+            <input type="number" id="operadorA" step="0.01">
+            <input type="number" id="operadorB" step="0.01">
+        </span>
+    </div>
+    <div class="output">
+        <input type="number" readonly id="resultado">
+    </div>
+    <div class="botonesOperaciones">
+        <button onclick="suma()">+</button>
+        <button onclick="resta()">-</button>
+        <button onclick="mult()">x</button>
+        <button onclick="div()">/</button>
+        <button onclick="potencia()">Potencia</button>
+        <button onclick="raiz()">Raiz</button>
+        <button onclick="absoluto()">Absoluto</button>
+        <button onclick="aleatorio()">Random</button>
+        <button onclick="redondear()">Redondear</button>
+        <button onclick="suelo()">Floor</button>
+        <button onclick="techo()">Ceil</button>
+    </div>
+    </div>
+</body>
+</html>

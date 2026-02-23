@@ -1,0 +1,35 @@
+/*Esconde las flechitas en el input type number*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+/*.calculadora{
+    margin-left:35%;
+    margin-top: 2%;
+}
+*/
+.inputUsuario{
+    margin-left:37.5%;
+    margin-top: 0.5%;
+}
+.output{
+    padding-top: 1%;
+    padding-left: 10%;
+    margin-left:35%;
+    margin-top: 2%;
+}
+
+.botonesOperaciones{
+    margin-right: 5%;
+    margin-left: 3.8%;
+    margin-top: 0.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
